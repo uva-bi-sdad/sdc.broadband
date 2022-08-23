@@ -26,7 +26,7 @@ jobs:
           python-version: 3.10.6 #install the python needed
       - name: initialize virtual environment
         run: |
-          . sdad_data_auditor/bin/activate
+          . sdad_data-auditor/sdad_data_auditor/bin/activate
       - name: execute py script # create a manifest with the current directory as root
         run: |
           python sdad_data-auditor/audit.py -i .
