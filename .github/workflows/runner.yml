@@ -1,5 +1,8 @@
 name: Audit Data Repository # v0.0.1
-on: [push]
+on:
+  push:
+    branches:
+      - 'main'
 jobs:
   book-keeping:
     runs-on: ubuntu-latest
