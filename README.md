@@ -1,7 +1,12 @@
-# Data Commons: Broadband
-Broadband-related data and measures for the Social Impact Data Commons
+# sdc.broadband-dev
 
-Terminology adopted from the [National Telecommunications and Information Administration (NTIA)](https://broadbandusa.ntia.doc.gov/sites/default/files/publication-pdfs/bbusa_broadband_glossary.pdf)
+Testing of the dev repository pushing to the pub repository
 
-# Structure
+Debugging
+---
+- You could [make an empty main branch on the destiniation repository](https://stackoverflow.com/questions/27201656/git-pushing-a-new-empty-branch-for-an-empty-project)
+- You cannot use the same ```deploy key``` again if you delete the destination repository
 
+Testing
+---
+- [ ] Pushing after main branch protection restricted to me
