@@ -50,9 +50,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-      - name: Remove all data folders
+      - name: Remove all files not in distribution folders
         run: |
-          find . -type d -name data -prune -exec rm -rf {} \;
+          find . -type d ! -name dist -prune -exec rm -rf {} \;
       - name: Remove github things # Required so that you can push to another directory
         run: |
           rm -rf .git
