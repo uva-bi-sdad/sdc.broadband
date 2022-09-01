@@ -50,16 +50,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-#       - name: Remove all files in data folders
-#         run: |
-#           find . -type d -name data -prune -exec rm -rf {} \;
-      - name: Ignore all files except for things in distribution and specific files in the root directory
-        run: | # replace the gitignore file to ignore everything except (the gitignore, files in distribution folder, and also the readme and the license
-          echo "*" > .gitignore
-          echo "!*/distribution/*" >> .gitignore
-          echo "!LICENSE.md" >> .gitignore
-          echo "!README.md" >> .gitignore
-          echo "!manifest.json" >> .gitignore
+      - name: Remove all files that do not have a distribution in its path, ignoring all files in root
+        run: |
+          find . -mindepth 2 -type f ! -wholename "**/distribution/*"
       - name: Remove github things # Required so that you can push to another directory
         run: |
           rm -rf .git
