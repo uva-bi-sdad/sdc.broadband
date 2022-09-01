@@ -5,7 +5,7 @@ on:
       - 'main'
 jobs:
   book-keeping:
-    if: github.repository == 'uva-bi-sdad/sdc.broadband-dev' # explicit is good?
+    if: github.repository == 'uva-bi-sdad/sdc.broadband_dev'
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -50,9 +50,16 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-      - name: Remove all files not in distribution folders
-        run: |
-          find . -type d ! -name dist -prune -exec rm -rf {} \;
+#       - name: Remove all files in data folders
+#         run: |
+#           find . -type d -name data -prune -exec rm -rf {} \;
+      - name: Ignore all files except for things in distribution and specific files in the root directory
+        run: | # replace the gitignore file to ignore everything except (the gitignore, files in distribution folder, and also the readme and the license
+          echo "*" > .gitignore
+          echo "!*/distribution/*" >> .gitignore
+          echo "!LICENSE.md" >> .gitignore
+          echo "!README.md" >> .gitignore
+          echo "!manifest.json" >> .gitignore
       - name: Remove github things # Required so that you can push to another directory
         run: |
           rm -rf .git
