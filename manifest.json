@@ -1,9 +1,282 @@
 {
   "name": "sdc.broadband_dev",
-  "measure_not_found": 0,
-  "count": 18,
-  "utc_audited": "2022-09-12 16:22:25",
+  "measure_not_found": 15,
+  "count": 39,
+  "utc_audited": "2022-09-13 17:50:26",
   "data": [
+    {
+      "name": "ncr_cttrbg_2021_broadband_now_internet_package_price.csv.xz",
+      "path": "legacy/data/dc.broadbandnow.broadband.prices/distribution/ncr_cttrbg_2021_broadband_now_internet_package_price.csv.xz",
+      "md5": "cea0cb0b482972a2f580bec109078012",
+      "size": 107388
+    },
+    {
+      "name": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "path": "legacy/data/dc.broadbandnow.broadband.prices/distribution/dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "md5": "152ad968743db5b75ffc99936685a95d",
+      "size": 690944,
+      "measure_info": [
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+          "measure": "perc_income_avg_nat_package",
+          "type": "percent",
+          "short_name": "Percentage of income for internet (average)",
+          "long_name": "The national average price for internet as a percentage of average income",
+          "short_description": "The national average price for internet ($64) as a percentage of median household income",
+          "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+          "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        },
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_min_price_100",
+          "measure": "perc_income_min_price_100",
+          "type": "percent",
+          "short_name": "Percentage of income for fast internet",
+          "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+          "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+          "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+          "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        },
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_min_price_25",
+          "measure": "perc_income_min_price_25",
+          "type": "percent",
+          "short_name": "Percentage of income for good internet",
+          "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+          "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+          "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+          "statement": "Good internet costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ncr_cttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "path": "legacy/data/dc.broadbandnow.broadband.prices/distribution/ncr_cttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "md5": "ff1a576d1a3d7a5d12af924b91b020c6",
+      "size": 298344,
+      "measure_info": [
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+          "measure": "perc_income_avg_nat_package",
+          "type": "percent",
+          "short_name": "Percentage of income for internet (average)",
+          "long_name": "The national average price for internet as a percentage of average income",
+          "short_description": "The national average price for internet ($64) as a percentage of median household income",
+          "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+          "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        },
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_min_price_100",
+          "measure": "perc_income_min_price_100",
+          "type": "percent",
+          "short_name": "Percentage of income for fast internet",
+          "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+          "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+          "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+          "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        },
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_min_price_25",
+          "measure": "perc_income_min_price_25",
+          "type": "percent",
+          "short_name": "Percentage of income for good internet",
+          "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+          "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+          "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+          "statement": "Good internet costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dmv_tr_broadband_now_2021_internet_package_price.csv.xz",
+      "path": "legacy/data/dc.broadbandnow.broadband.prices/distribution/dmv_tr_broadband_now_2021_internet_package_price.csv.xz",
+      "md5": "3bc8f81359b8c82aeef42918c2a28be7",
+      "size": 39856
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2021_broadband_now_internet_package_price.csv.xz",
+      "path": "legacy/data/dc.broadbandnow.broadband.prices/distribution/dcmdva_hdcttrbg_2021_broadband_now_internet_package_price.csv.xz",
+      "md5": "a711aaf460dfe6d8c67b3656fc702d8b",
+      "size": 337564
+    },
+    {
+      "name": "dcmdva_hdcttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "path": "legacy/data/dc.broadbandnow.broadband.prices/distribution/dcmdva_hdcttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "md5": "f03b53e24daec48aba680ec648b323fa",
+      "size": 599828,
+      "measure_info": [
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+          "measure": "perc_income_avg_nat_package",
+          "type": "percent",
+          "short_name": "Percentage of income for internet (average)",
+          "long_name": "The national average price for internet as a percentage of average income",
+          "short_description": "The national average price for internet ($64) as a percentage of median household income",
+          "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+          "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        },
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_min_price_100",
+          "measure": "perc_income_min_price_100",
+          "type": "percent",
+          "short_name": "Percentage of income for fast internet",
+          "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+          "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+          "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+          "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        },
+        {
+          "category": "Broadband",
+          "measure_table": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet",
+          "full_name": "perc_income_on_internet:perc_income_min_price_25",
+          "measure": "perc_income_min_price_25",
+          "type": "percent",
+          "short_name": "Percentage of income for good internet",
+          "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+          "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+          "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+          "statement": "Good internet costs {value} of the median household income in {features.name}.",
+          "equity_category": "Affordability",
+          "sources": [
+            {
+              "name": "American Community Survey",
+              "date_accessed": 2021,
+              "url": "https://www.census.gov/programs-surveys/acs.html"
+            },
+            {
+              "name": "Broadband Now",
+              "date_accessed": 2021,
+              "url": "https://broadbandnow.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "va_hdcttr_2021_broadband_now_internet_package_price.csv.xz",
+      "path": "legacy/data/dc.broadbandnow.broadband.prices/distribution/va_hdcttr_2021_broadband_now_internet_package_price.csv.xz",
+      "md5": "f425934e0d6bb2b0b97417f11d213d80",
+      "size": 59568
+    },
     {
       "name": "va_hdcttr_2017_2019_broadband_withoutint_compdev.csv.xz",
       "path": "legacy/data/dc.acs.broadband/distribution/va_hdcttr_2017_2019_broadband_withoutint_compdev.csv.xz",
@@ -12,7 +285,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
           "measure": "perc_hh_with_broadband",
           "type": "percent",
@@ -32,7 +305,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
           "measure": "perc_hh_with_cable_fiber_dsl",
           "type": "percent",
@@ -52,7 +325,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
           "measure": "perc_hh_without_compdev",
           "type": "percent",
@@ -72,7 +345,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
           "measure": "perc_hh_without_internet",
           "type": "percent",
@@ -100,7 +373,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
           "measure": "perc_hh_with_broadband",
           "type": "percent",
@@ -120,7 +393,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
           "measure": "perc_hh_with_cable_fiber_dsl",
           "type": "percent",
@@ -140,7 +413,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
           "measure": "perc_hh_without_compdev",
           "type": "percent",
@@ -160,7 +433,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
           "measure": "perc_hh_without_internet",
           "type": "percent",
@@ -188,7 +461,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
           "measure": "perc_hh_with_broadband",
           "type": "percent",
@@ -208,7 +481,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
           "measure": "perc_hh_with_cable_fiber_dsl",
           "type": "percent",
@@ -228,7 +501,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
           "measure": "perc_hh_without_compdev",
           "type": "percent",
@@ -248,7 +521,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+          "measure_table": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev",
           "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
           "measure": "perc_hh_without_internet",
           "type": "percent",
@@ -276,7 +549,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -295,7 +568,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -314,7 +587,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -341,7 +614,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_100_20_using_devices",
           "measure": "perc_total_100_20_using_devices",
           "short_name": "Percent Fast (total)",
@@ -360,7 +633,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_25_3_using_devices",
           "measure": "perc_total_25_3_using_devices",
           "short_name": "Percent Good (total)",
@@ -379,7 +652,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_100_20_using_devices",
           "measure": "perc_w_int_100_20_using_devices",
           "short_name": "Percent Fast (internet-connected)",
@@ -398,7 +671,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_25_3_using_devices",
           "measure": "perc_w_int_25_3_using_devices",
           "short_name": "Percent Good (internet-connected)",
@@ -425,7 +698,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -444,7 +717,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -463,7 +736,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -490,7 +763,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -509,7 +782,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -528,7 +801,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -555,7 +828,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -574,7 +847,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -593,7 +866,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -620,7 +893,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_100_20_using_devices",
           "measure": "perc_total_100_20_using_devices",
           "short_name": "Percent Fast (total)",
@@ -639,7 +912,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_25_3_using_devices",
           "measure": "perc_total_25_3_using_devices",
           "short_name": "Percent Good (total)",
@@ -658,7 +931,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_100_20_using_devices",
           "measure": "perc_w_int_100_20_using_devices",
           "short_name": "Percent Fast (internet-connected)",
@@ -677,7 +950,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_25_3_using_devices",
           "measure": "perc_w_int_25_3_using_devices",
           "short_name": "Percent Good (internet-connected)",
@@ -704,7 +977,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_100_20_using_devices",
           "measure": "perc_total_100_20_using_devices",
           "short_name": "Percent Fast (total)",
@@ -723,7 +996,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_25_3_using_devices",
           "measure": "perc_total_25_3_using_devices",
           "short_name": "Percent Good (total)",
@@ -742,7 +1015,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_100_20_using_devices",
           "measure": "perc_w_int_100_20_using_devices",
           "short_name": "Percent Fast (internet-connected)",
@@ -761,7 +1034,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_25_3_using_devices",
           "measure": "perc_w_int_25_3_using_devices",
           "short_name": "Percent Good (internet-connected)",
@@ -788,7 +1061,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -807,7 +1080,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -826,7 +1099,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -853,7 +1126,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -872,7 +1145,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -891,7 +1164,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -918,7 +1191,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -937,7 +1210,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -956,7 +1229,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -983,7 +1256,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_100_20_using_devices",
           "measure": "perc_total_100_20_using_devices",
           "short_name": "Percent Fast (total)",
@@ -1002,7 +1275,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_25_3_using_devices",
           "measure": "perc_total_25_3_using_devices",
           "short_name": "Percent Good (total)",
@@ -1021,7 +1294,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_100_20_using_devices",
           "measure": "perc_w_int_100_20_using_devices",
           "short_name": "Percent Fast (internet-connected)",
@@ -1040,7 +1313,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_25_3_using_devices",
           "measure": "perc_w_int_25_3_using_devices",
           "short_name": "Percent Good (internet-connected)",
@@ -1067,7 +1340,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -1086,7 +1359,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -1105,7 +1378,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -1132,7 +1405,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_100_20_using_devices",
           "measure": "perc_total_100_20_using_devices",
           "short_name": "Percent Fast (total)",
@@ -1151,7 +1424,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_total_25_3_using_devices",
           "measure": "perc_total_25_3_using_devices",
           "short_name": "Percent Good (total)",
@@ -1170,7 +1443,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_100_20_using_devices",
           "measure": "perc_w_int_100_20_using_devices",
           "short_name": "Percent Fast (internet-connected)",
@@ -1189,7 +1462,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_sdad_2019_2021q3_percent_above_threshold",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold",
           "full_name": "percent_above_threshold:perc_w_int_25_3_using_devices",
           "measure": "perc_w_int_25_3_using_devices",
           "short_name": "Percent Good (internet-connected)",
@@ -1216,7 +1489,7 @@
       "measure_info": [
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_down_using_devices",
           "measure": "avg_down_using_devices",
           "short_name": "Average Download Speed",
@@ -1235,7 +1508,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:avg_up_using_devices",
           "measure": "avg_up_using_devices",
           "short_name": "Average Upload Speed",
@@ -1254,7 +1527,7 @@
         },
         {
           "category": "Broadband",
-          "measure_table": "dmv_cttrbg_ookla_2019_2021q3_speed_measurements",
+          "measure_table": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements",
           "full_name": "speed_measurements:devices",
           "measure": "devices",
           "short_name": "Number of devices",
@@ -1272,6 +1545,93 @@
           ]
         }
       ]
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "path": "Wired/Adoption/Percentage of households with broadband/data/distribution/dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "path": "Wired/Adoption/Percentage of households with a high speed internet service (cable, fiber optic, or DSL)/data/distribution/dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "path": "Wired/Adoption/Percentage of households without a computer/data/distribution/dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "path": "Wired/Adoption/Percentage of households without internet access/data/distribution/dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "path": "Wired/Accessibility/Percent of the Total Population with Fast Internet Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "path": "Wired/Accessibility/Percent of the Total Population with Good Internet Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+      "path": "Wired/Accessibility/Average Upload Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116,
+      "measure_info": [
+        "avg_up_using_devices"
+      ]
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "path": "Wired/Accessibility/Percent of the Internet-Connected Population with Good Internet Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+      "path": "Wired/Accessibility/Number of Devices/data/distribution/dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116,
+      "measure_info": [
+        "devices"
+      ]
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "path": "Wired/Accessibility/Percent of the Internet-Connected Population with Fast Internet Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+      "path": "Wired/Accessibility/Average Download Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116,
+      "measure_info": [
+        "avg_down_using_devices"
+      ]
+    },
+    {
+      "name": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "path": "Wired/Affordability/The minimum price for good internet (25 MBs upload) as a percentage of median household income/data/distribution/dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
+    },
+    {
+      "name": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "path": "Wired/Affordability/The minimum price for fast internet (100 MBs upload) as a percentage of median household income/data/distribution/dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
     },
     {
       "name": "va_hdcttr_sdad_2021_perc_income_on_internet.csv.xz",
@@ -1305,6 +1665,12 @@
           ]
         }
       ]
+    },
+    {
+      "name": "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "path": "Wired/Affordability/The national average price for internet as a percentage of average income/data/distribution/dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+      "md5": "181a9926e34b12cb1ff033b0c8c35c5d",
+      "size": 116
     }
   ],
   "_references": {}
