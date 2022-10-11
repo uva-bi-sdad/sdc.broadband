@@ -1,7 +1,7 @@
 {
   "name": "sdc.broadband_dev",
   "count": 38,
-  "utc_audited": "2022-10-11 13:18:12",
+  "utc_audited": "2022-10-11 14:37:55",
   "data": [
     {
       "name": "dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
@@ -1637,7 +1637,7 @@
     }
   ],
   "measure_generated": [],
-  "measure_to_check": [
+  "no_match_in_measures_info": [
     "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/Wired/Accessibility/Percent Good (total)/data/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
     "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
     "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/Wired/Accessibility/Percent Fast (total)/data/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
@@ -1655,6 +1655,29 @@
     "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.broadbandnow.broadband.prices/distribution/dcmdva_hdcttrbg_2021_broadband_now_internet_package_price.csv.xz",
     "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.broadbandnow.broadband.prices/distribution/ncr_cttrbg_2021_broadband_now_internet_package_price.csv.xz"
   ],
-  "measures_found": 22,
+  "measures_found": [
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/Wired/Accessibility/Average Upload Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/Wired/Accessibility/Average Download Speed/data/distribution/dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/ncr_cttrbg_2019_2021_speed_measurements_fixed.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va_hdcttr_2019_2021_percent_above_threshold_mobile.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va_hdcttr_2019_2021_speed_measurements_fixed.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va059_spd_sdad_2019_2021_speed_measurements.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/ncr_cttrbg_2019_2021_speed_measurements_mobile.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/dcmdva_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va059_zp_sdad_2019_2021_speed_measurements.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/ncr_cttrbg_2019_2021_percent_above_threshold_fixed.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va_hdcttr_2019_2021_percent_above_threshold_fixed.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va_hdcttr_2019_2021_speed_measurements_mobile.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va059_pd_sdad_2019_2021_speed_measurements.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/ncr_cttrbg_2019_2021_percent_above_threshold_mobile.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.ookla.broadband/distribution/va059_hsr_sdad_2019_2019_speed_measurements.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.broadbandnow.broadband.prices/distribution/dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.broadbandnow.broadband.prices/distribution/ncr_cttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.broadbandnow.broadband.prices/distribution/dcmdva_hdcttrbg_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.acs.broadband/distribution/ncr_cttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.acs.broadband/distribution/dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz",
+    "/home/runner/work/sdc.broadband_dev/sdc.broadband_dev/legacy/data/dc.acs.broadband/distribution/va_hdcttr_2017_2019_broadband_withoutint_compdev.csv.xz"
+  ],
   "_references": {}
 }
