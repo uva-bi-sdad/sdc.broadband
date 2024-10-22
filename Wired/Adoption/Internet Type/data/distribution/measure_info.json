@@ -61,7 +61,7 @@
         "data_type": "decimal",
         "equity_category": "Availability",
         "layer": "",
-        "long_description": "Percentage of households self-reported to not have a computer or device at home. Data is based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd_xx)",
+        "long_description": "Percentage of households self-reported to not have internet access at home. Data is based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates. Geographies: County (5), Block group (12), Census Tract (11), Health Districts (51_hd_xx)",
         "long_name": "Percentage of households without internet access",
         "measure_type": "percent",
         "short_description": "",
